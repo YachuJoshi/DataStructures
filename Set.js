@@ -78,7 +78,4 @@ for(var i=0; i<10; i++) {
         setB.add(i);
     }
 }
-console.log(setA.list());
-console.log(setB.list());
-var unionSet = setA.union(setB);
-console.log(unionSet.list());
+

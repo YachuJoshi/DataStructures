@@ -99,16 +99,3 @@ class BinarySearchTree{
         this.root = removeNode(this.root, data);
     }
 }
-
-var bst = new BinarySearchTree();
-bst.add(4);
-bst.add(2);
-bst.add(6);
-bst.add(1);
-bst.add(3);
-bst.add(5);
-bst.add(7);
-console.log('Min Value in Tree = ' + bst.findMin());
-console.log('Max Value in Tree = ' + bst.findMax());
-bst.remove(7);
-console.log('Max Value in Tree = ' + bst.findMax());

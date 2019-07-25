@@ -28,13 +28,3 @@ var Stack = function() {
     }
 }
 
-var myStack = new Stack();
-console.log(myStack.push(4) + " is pushed to stack.");
-console.log(myStack.push(5) + " is pushed to stack.");
-console.log(myStack.peek());
-console.log(myStack.pop() + " is poped." );
-console.log(myStack.peek());
-console.log(myStack.push("YACHU JOSHI"));
-console.log(myStack.size());
-console.log(myStack.peek());
-console.log(myStack.pop() + " is removed from stack.");

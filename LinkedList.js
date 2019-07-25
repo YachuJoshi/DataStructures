@@ -130,16 +130,3 @@ var myLinkedList = function() {
         console.log(str);
     }
 }
-
-var Pokemon = new myLinkedList();
-Pokemon.add('Pikachu');
-Pokemon.add('Raichu');
-Pokemon.add('Squirtle');
-Pokemon.add('Bastoise');
-console.log(Pokemon.size());
-Pokemon.removeAt(3);
-console.log(Pokemon.size());
-Pokemon.addAt('Charmander', 2);
-console.log(Pokemon.size());
-console.log(Pokemon.elementAt(1));
-Pokemon.printList();

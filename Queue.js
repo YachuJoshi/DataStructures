@@ -75,8 +75,3 @@ var myPriorityQueue = function() {
     }
 }
 
-var myQueue = new myPriorityQueue();
-myQueue.enqueue(['YACHU',2]);
-myQueue.enqueue(['JOSHI',3]);
-myQueue.enqueue(['HELLO', 1]);
-myQueue.print();
